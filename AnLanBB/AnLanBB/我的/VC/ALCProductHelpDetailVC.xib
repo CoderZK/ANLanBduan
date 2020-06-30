@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ALCProductHelpDetailVC">
+            <connections>
+                <outlet property="TV" destination="0Qc-Vc-nmT" id="y8J-is-4BX"/>
+                <outlet property="titleLB" destination="hGs-Yb-KKw" id="RO7-rr-cvv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设备充一次电可以使用多久" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGs-Yb-KKw">
+                    <rect key="frame" x="15" y="54" width="384" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="IuT-HE-Cl0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <color key="highlightedColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="充满电的设备使用时长达20小时。最多需要两个半小时即可将电池电量充满。电池充满后，电池指示灯闪烁绿色" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0Qc-Vc-nmT">
+                    <rect key="frame" x="15" y="84" width="384" height="768"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <color key="textColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hGs-Yb-KKw" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="10" id="1Km-VF-9KW"/>
+                <constraint firstItem="hGs-Yb-KKw" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="15" id="531-Jm-a4m"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="0Qc-Vc-nmT" secondAttribute="trailing" constant="15" id="FXl-Fs-RQY"/>
+                <constraint firstItem="0Qc-Vc-nmT" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="15" id="Kaf-ej-T6U"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="0Qc-Vc-nmT" secondAttribute="bottom" constant="10" id="TiK-4h-Qmj"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="hGs-Yb-KKw" secondAttribute="trailing" constant="15" id="USP-nM-FE9"/>
+                <constraint firstItem="0Qc-Vc-nmT" firstAttribute="top" secondItem="hGs-Yb-KKw" secondAttribute="bottom" constant="10" id="pIw-8q-PCV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="132" y="120"/>
+        </view>
+    </objects>
+</document>

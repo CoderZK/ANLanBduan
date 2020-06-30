@@ -1,0 +1,82 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (6.5.3)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.1)
+  - MJRefresh (3.2.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.2.5):
+    - SDWebImage/Core (= 5.2.5)
+  - SDWebImage/Core (5.2.5)
+  - SVProgressHUD (2.2.5)
+  - SwipeBack (1.1.1)
+  - TZImagePickerController (3.2.6)
+  - UMCCommon (7.1.0)
+  - UMCCommonLog (2.0.0)
+  - UMCPush (3.2.4):
+    - UMCCommon
+
+DEPENDENCIES:
+  - AFNetworking
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - ReactiveObjC
+  - SDWebImage
+  - SVProgressHUD
+  - SwipeBack
+  - TZImagePickerController
+  - UMCCommon
+  - UMCCommonLog
+  - UMCPush
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - IQKeyboardManager
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
+    - SVProgressHUD
+    - SwipeBack
+    - TZImagePickerController
+  trunk:
+    - UMCCommon
+    - UMCCommonLog
+    - UMCPush
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  IQKeyboardManager: c2f901164d56807a35788483584d09fa69192e8e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 4eabf2fa6695c95c47724214417a9c036c965e4a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwipeBack: d6759601b40da1f4161033feb30ab475d7d04322
+  TZImagePickerController: 3900e8d68428ff3a88817efce82ae9e7d9ffebc9
+  UMCCommon: 4e80f93492d300245683236668763dc5d0b04dbd
+  UMCCommonLog: 9b7ddde5d14a52fc1986ba5ac3121b8b2f433638
+  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
+
+PODFILE CHECKSUM: d45e1ef752edb48b433507de7c705378de7163e8
+
+COCOAPODS: 1.9.3
