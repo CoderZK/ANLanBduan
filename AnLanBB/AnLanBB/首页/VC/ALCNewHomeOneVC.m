@@ -18,11 +18,11 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    if ([zkSignleTool shareTool].isLogin == NO) {
-        ALCLoginOneVC * vc =[[ALCLoginOneVC alloc] init];
-        vc.modalPresentationStyle = UIModalPresentationFullScreen;
-        [self presentViewController:vc animated:YES completion:nil];
-    }
+//    if ([zkSignleTool shareTool].isLogin == NO) {
+//        ALCLoginOneVC * vc =[[ALCLoginOneVC alloc] init];
+//        vc.modalPresentationStyle = UIModalPresentationFullScreen;
+//        [self presentViewController:vc animated:YES completion:nil];
+//    }
 }
 
 

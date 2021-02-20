@@ -214,11 +214,11 @@ static ALCAudioTool *tool = nil;
     //设置录音格式
     [configure setObject:@(kAudioFormatAppleIMA4) forKey:AVFormatIDKey];
     //设置录音采样率(Hz) 如：AVSampleRateKey==8000/44100/96000（影响音频的质量）
-    [configure setObject:@44100 forKey:AVSampleRateKey];
+    [configure setObject:@96000 forKey:AVSampleRateKey];
     //设置通道
     [configure setObject:@1 forKey:AVNumberOfChannelsKey];
     //设置采样点位数 ，分别 8、16、24、32
-    [configure setObject:@16 forKey:AVLinearPCMBitDepthKey];
+    [configure setObject:@32 forKey:AVLinearPCMBitDepthKey];
     //是否使用浮点数采样
     [configure setObject:@(YES) forKey:AVLinearPCMIsFloatKey];
     //设置录音质量:中等质量
@@ -229,6 +229,12 @@ static ALCAudioTool *tool = nil;
 
 }//录音配置
 
+// 重新录音
+- (void)reStartRecord {
+    [self.avaudioRecorder deleteRecording];
+    [self startRecord];
+}
+
 - (void)startRecord
 {
     if (![self.avaudioRecorder isRecording]) {
@@ -238,10 +244,6 @@ static ALCAudioTool *tool = nil;
     }else {
         [SVProgressHUD showErrorWithStatus:@"检查麦克风"];
     }
-
-    
-    
-
 
 }//开始录音
 

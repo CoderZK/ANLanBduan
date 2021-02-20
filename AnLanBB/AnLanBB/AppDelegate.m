@@ -76,14 +76,14 @@
     //       }
     
     
-    if ([zkSignleTool shareTool].isLogin == NO) {
-        
-        ALCLoginOneVC * vc =[[ALCLoginOneVC alloc] init];
-        vc.modalPresentationStyle = UIModalPresentationFullScreen;
-        [self.window.rootViewController presentViewController:vc animated:YES completion:nil];
-        
-        
-    }
+//    if ([zkSignleTool shareTool].isLogin == NO) {
+//        
+//        ALCLoginOneVC * vc =[[ALCLoginOneVC alloc] init];
+//        vc.modalPresentationStyle = UIModalPresentationFullScreen;
+//        [self.window.rootViewController presentViewController:vc animated:YES completion:nil];
+//        
+//        
+//    }
     
     
     return YES;

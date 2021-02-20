@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)stopRecord;
 - (void)pauaseRecord;
 - (void)startRecord;
+- (void)reStartRecord;
 - (void)playRecord;
 - (BOOL)isNodata;
 //音频录制
